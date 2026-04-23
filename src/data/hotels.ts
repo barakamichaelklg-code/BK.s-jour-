@@ -118,14 +118,14 @@ export const hotelsData: Hotel[] = [
   },
   {
     id: 'h4',
-    name: 'Hotel Mont Kahuzi',
+    name: 'Mont Kahuzi Hotel',
     description: 'Situé dans un quartier calme, c\'est le point de départ parfait pour visiter le Parc National de Kahuzi-Biega et ses gorilles.',
-    address: 'Quartier Nyawera, Ibanda, Bukavu, Sud-Kivu, RDC',
+    address: 'Commune de Kadutu, Bukavu, Sud-Kivu, RDC',
     contact: {
       phone: '+243 850 111 222',
       email: 'booking@montkahuzi.com'
     },
-    services: ['Wi-Fi', 'Restaurant', 'Excursions Gorilles', 'Parking', 'Jardin'],
+    services: ['Wi-Fi', 'Restaurant', 'Excursions Gorilles', 'Parking', 'Conférence'],
     rating: 4.5,
     coverImage: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&q=80',
     images: [
@@ -137,7 +137,7 @@ export const hotelsData: Hotel[] = [
         id: 'r4-1',
         name: 'Chambre Explorateur',
         description: 'Chambre confortable au décor inspiré de la nature congolaise.',
-        pricePerNight: 90,
+        pricePerNight: 85,
         capacity: 2,
         amenities: ['Lit Queen Size', 'Moustiquaire', 'Ventilateur', 'TV'],
         image: 'https://images.unsplash.com/photo-1618773928120-2946c10eb820?w=800&q=80'
@@ -169,6 +169,118 @@ export const hotelsData: Hotel[] = [
         capacity: 2,
         amenities: ['Lit Double', 'Climatisation', 'Accès Piscine', 'Salle de bain attenante'],
         image: 'https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?w=800&q=80'
+      }
+    ]
+  },
+  {
+    id: 'h6',
+    name: 'Elizabeth Hotel',
+    description: 'Hôtel moderne et élégant au centre ville offrant un design contemporain et des installations de première classe pour les voyageurs exigeants.',
+    address: 'Av. de la Résidence, Ibanda, Bukavu, Sud-Kivu, RDC',
+    contact: {
+      phone: '+243 81 222 5555',
+      email: 'info@elizabethhotel.cd'
+    },
+    services: ['Wi-Fi Rapide', 'Gym', 'Spa', 'Navette', 'Restaurant Gastronomique', 'Lounge Bar'],
+    rating: 4.7,
+    coverImage: 'https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1553653924-39b70295f8da?w=800&q=80',
+      'https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80'
+    ],
+    rooms: [
+      {
+        id: 'r6-1',
+        name: 'Chambre Exécutive',
+        description: 'Parfait pour les séjours daffaires, avec un espace de travail ergonomique et un lit ultra confortable.',
+        pricePerNight: 120,
+        capacity: 2,
+        amenities: ['Lit King Size', 'Climatisation', 'Bureau', 'Machine Nespresso', 'Coffre-fort'],
+        image: 'https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&q=80'
+      }
+    ]
+  },
+  {
+    id: 'h7',
+    name: 'Hotel Horizon',
+    description: 'Situé sur les hauteurs de la ville, l\'Hotel Horizon offre une vue panoramique imprenable sur Bukavu et ses environs avec un bon rapport qualité-prix.',
+    address: 'Quartier Ndendere, Ibanda, Bukavu, Sud-Kivu, RDC',
+    contact: {
+      phone: '+243 993 444 555',
+      email: 'reservations@hotelhorizon.cd'
+    },
+    services: ['Wi-Fi', 'Petit-déjeuner Inclus', 'Terrasse Panoramique', 'Parking Sécurisé'],
+    rating: 4.1,
+    coverImage: 'https://images.unsplash.com/photo-1498654896293-37aacf113fd9?w=800&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1481262142271-419b4d8aab94?w=800&q=80',
+      'https://images.unsplash.com/photo-1501117716987-c8c394bb29df?w=800&q=80'
+    ],
+    rooms: [
+      {
+        id: 'r7-1',
+        name: 'Chambre Confort',
+        description: 'Simple, propre et confortable avec tout le nécessaire pour une bonne nuit de sommeil.',
+        pricePerNight: 75,
+        capacity: 2,
+        amenities: ['Lit Double', 'TV', 'Ventilateur', 'Salle de bain'],
+        image: 'https://images.unsplash.com/photo-1549294413-26f195200c16?w=800&q=80'
+      }
+    ]
+  },
+  {
+    id: 'h8',
+    name: 'Coco Lodge Bukavu',
+    description: 'Une oasis de paix en plein centre-ville. Le Coco Lodge est reconnu pour son hospitalité chaleureuse, sa cuisine succulente et ses jardins luxuriants.',
+    address: 'Avenue du Gouverneur, La Botte, Bukavu, Sud-Kivu, RDC',
+    contact: {
+      phone: '+243 821 113 333',
+      email: 'booking@cocolodge-bukavu.com'
+    },
+    services: ['Wi-Fi', 'Restaurant Réputé', 'Jardin Tropical', 'Service de blanchisserie', 'Salles de réunion'],
+    rating: 4.6,
+    coverImage: 'https://images.unsplash.com/photo-1495365200479-c4ed1d35e1aa?w=800&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1510798831971-661eb04b3739?w=800&q=80',
+      'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80'
+    ],
+    rooms: [
+      {
+        id: 'r8-1',
+        name: 'Chambre Lodge',
+        description: 'Chambre au décor africain raffiné avec une atmosphère relaxante et apaisante.',
+        pricePerNight: 110,
+        capacity: 2,
+        amenities: ['Lit Queen Size', 'Climatisation', 'Vue Jardin', 'Bureau'],
+        image: 'https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80'
+      }
+    ]
+  },
+  {
+    id: 'h9',
+    name: 'Exodus Bukavu',
+    description: 'En plein quartier animé, Exodus offre commodité et flexibilité pour les voyageurs souhaitant rester proches de laudio et des activités urbaines.',
+    address: 'Avenue Patrice Emery Lumumba, Nyawera, Bukavu, Sud-Kivu, RDC',
+    contact: {
+      phone: '+243 972 555 888',
+      email: 'contact@exodusbukavu.com'
+    },
+    services: ['Wi-Fi', 'Restaurant Rapide', 'Réception 24h/24', 'Navette'],
+    rating: 3.9,
+    coverImage: 'https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80',
+      'https://images.unsplash.com/photo-1553456558-aff63285aad1?w=800&q=80'
+    ],
+    rooms: [
+      {
+        id: 'r9-1',
+        name: 'Chambre Standard Urbaine',
+        description: 'Profitez dun repos bien mérité après une journée bien remplie en ville.',
+        pricePerNight: 60,
+        capacity: 2,
+        amenities: ['Lit Double', 'TV', 'Douche'],
+        image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=800&q=80'
       }
     ]
   }
